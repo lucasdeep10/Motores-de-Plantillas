@@ -1,0 +1,19 @@
+- let exist = foodArray.length>0?true:false;
+html   
+    include includes/head.pug
+    body
+        h1="Lista de productos"
+        if exist
+            ul
+                each i in foodArray
+                    div(class="div-main")
+                        div(class="container")
+                            img(class="img" src=i.pictureUrl)
+                            p(class="text")=i.title 
+                            p(class="text")=i.price 
+                            p(class="text")=i.resumen
+                            p(class="text")=i.estado
+                            p(class="text")=i.autor
+        else
+            p="No hay productos por mostrar."
+                    

@@ -1,0 +1,27 @@
+.div-main{
+    background-color: rgb(80, 80, 80);
+    border: 1px solid ddd ;
+    opacity: 0.9;
+}
+.container{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(80, 80, 80);
+    margin: 1px solid ddd ;
+}
+
+.text{
+    font-weight:bold;
+    border-top: 3px solid #ddd;
+    padding: 8px ;
+    background-color: rgb(80, 80, 80);
+}
+
+.img {
+    align-items: center;
+    height: auto;
+    width: 250px;
+}
+
