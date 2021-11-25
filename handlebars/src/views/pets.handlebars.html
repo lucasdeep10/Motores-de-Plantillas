@@ -1,0 +1,19 @@
+<h1 style="text-align:center">Todas las mascotas</h1>
+<div class="main-container">
+    {{#if exist}}
+    <div class="pets-container">
+        {{#each pets}}
+        <div class="pet-card">
+            <p class="pet-card-text">
+                {{this.name}}
+            </p>
+            <br>
+            <p class="pet-card-text">
+                {{this.specie}}
+            </p>
+            <img class="pet-card-img" src={{this.thumbnail}}>
+        </div>
+        {{/each}}
+    </div>
+    {{/if}}
+</div>

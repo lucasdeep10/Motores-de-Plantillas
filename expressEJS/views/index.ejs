@@ -1,0 +1,26 @@
+<% let exist = food.length>0%>
+<!DOCTYPE html>
+<html lang="es">
+    <%-include('./partials/head.ejs')%>
+<body>
+    <h1>HOLA CODERS DESDE EJS</h1>
+    <h2><%= user.name %> <%= user.last_name %></h2>
+    <%if(exist){%>
+        <ul>
+            <% food.forEach(function(f){%>
+                <li>
+                    <div class="container">
+                        <p>
+                            <%=f.name%>
+                            <%=f.price%>
+                        </p>
+                    </div>
+                </li>
+            <%});%>
+        </ul>
+    <%}else{%>
+        <p> No hay comida para mostrar</p>
+    <%}%>
+</body>
+<%-include('./partials/footer.ejs')%>
+</html>

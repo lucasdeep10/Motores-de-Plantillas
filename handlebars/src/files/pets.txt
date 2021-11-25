@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "perrito",
+    "specie": "dog",
+    "age": "2",
+    "thumbnail": "http://localhost:8081/resources/images/1637098947219dog1.jpg",
+    "adopted": false
+  },
+  {
+    "id": 2,
+    "name": "Pulgas",
+    "specie": "dog",
+    "age": "2",
+    "thumbnail": "http://localhost:8081/resources/images/1637098975928dog2.jpg",
+    "adopted": false
+  },
+  {
+    "id": 3,
+    "name": "michi",
+    "specie": "cat",
+    "age": "2",
+    "thumbnail": "http://localhost:8081/resources/images/1637098992627cat1.jpg",
+    "adopted": false
+  },
+  {
+    "id": 4,
+    "name": "goldie",
+    "specie": "fish",
+    "age": "1",
+    "thumbnail": "http://localhost:8081/resources/images/1637099012685fish1.jpg",
+    "adopted": false
+  },
+  {
+    "id": 5,
+    "name": "Epona",
+    "specie": "horse",
+    "age": "5",
+    "thumbnail": "http://localhost:8081/resources/images/1637099027421horse1.jpg",
+    "adopted": false
+  },
+  {
+    "id": 6,
+    "name": "Pana rabbit",
+    "specie": "rabbit",
+    "age": "4",
+    "thumbnail": "http://localhost:8081/resources/images/1637099048944rabbit2.jpg",
+    "adopted": false
+  },
+  {
+    "id": 7,
+    "name": "orejas",
+    "specie": "rabbit",
+    "age": "1",
+    "thumbnail": "http://localhost:8081/resources/images/1637099075864rabbit1.jpg",
+    "adopted": false
+  },
+  {
+    "id": 8,
+    "name": "feliz",
+    "specie": "cat",
+    "age": "1",
+    "thumbnail": "http://localhost:8081/resources/images/1637099341092cat2.jpg",
+    "adopted": false
+  }
+]

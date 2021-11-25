@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "name": "Beto",
+    "last_name": "Berto",
+    "age": 45,
+    "hasPet": false
+  }
+]
